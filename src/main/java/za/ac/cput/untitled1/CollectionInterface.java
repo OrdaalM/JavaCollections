@@ -14,7 +14,7 @@ public class CollectionInterface {
 
         List<Employer> mylist = new ArrayList<>();
 
-
+//this is my list add
         mylist.add(emply1);
         mylist.add(emply2);
         mylist.add(emply3);
@@ -25,7 +25,7 @@ public class CollectionInterface {
         System.out.println("Removed Element is : "+emply3);
         mylist.add(emply3);
         mylist.stream().findAny();
-
+//this is my set
 
         HashSet<Employer> set = new HashSet<>();
         set.add(emply1);
@@ -37,7 +37,7 @@ public class CollectionInterface {
         set.remove(emply2);
         System.out.println("Removed Element is : "+emply2);
         set.stream().findAny();
-
+//this is my map
         Map<String, Employer> map = new HashMap<>();
         map.put("", emply1);
         map.put("", emply2);
